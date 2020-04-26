@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/</loc>
+    <lastmod>2020-04-26T15:08:47+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/</loc>
+    <lastmod>2020-04-26T15:08:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/oracle/</loc>
+    <lastmod>2020-04-26T15:08:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/post/</loc>
+    <lastmod>2020-04-26T15:08:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/</loc>
+    <lastmod>2020-04-26T15:08:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/tugas/</loc>
+    <lastmod>2020-04-26T15:08:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/post/installasi-oracle-xe/</loc>
+    <lastmod>2020-04-26T05:00:02+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/flashing/</loc>
+    <lastmod>2020-04-24T12:50:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/post/reflash-original-firmware-tp-link-mr3420-v2/</loc>
+    <lastmod>2020-04-24T12:50:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/router/</loc>
+    <lastmod>2020-04-24T12:50:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/tutorial/</loc>
+    <lastmod>2020-04-24T12:50:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/post/how-i-made-hugo-blog/</loc>
+    <lastmod>2020-04-24T10:40:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/hugo/</loc>
+    <lastmod>2020-04-24T10:40:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/page/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/page/</loc>
+  </url>
+  
+</urlset>

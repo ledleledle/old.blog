@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oracle on ledleledle&#39;s Blog</title>
+    <link>https://ledleledle.github.io/blog/tags/oracle/</link>
+    <description>Recent content in oracle on ledleledle&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 26 Apr 2020 15:08:47 +0700</lastBuildDate>
+    
+	<atom:link href="https://ledleledle.github.io/blog/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cara Menggunakan Database Oracle</title>
+      <link>https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/</link>
+      <pubDate>Sun, 26 Apr 2020 15:08:47 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/</guid>
+      <description>Intro Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)
+ WARNING : Screenshot besar
+ Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.
+@root&amp;gt; /etc/rc.d/oracle-xe status Jika Oracle Server belum berjalan, jalankan perintah berikut untuk menjalankan servernya.
+@root&amp;gt; /etc/rc.d/oracle-xe start Lalu kita bisa langsung login ke Oracle Sqlplus.</description>
+    </item>
+    
+    <item>
+      <title>Installasi Oracle Xe</title>
+      <link>https://ledleledle.github.io/blog/post/installasi-oracle-xe/</link>
+      <pubDate>Sun, 26 Apr 2020 05:00:02 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/installasi-oracle-xe/</guid>
+      <description>Ini menyangkut tugas kuliah, sebenernya ini untuk tugas remidial UTS kemarin, tapi berhubung saya tertarik jadi kita bahas saja. Dan karena saya merasa janggal juga, kenapa setiap tutorial installasi dari dosen selalu saja pake OS Jendela. Kurang gimana gitu :v
+Spesifikasi Karena sudah saya singgung diatas, disini saya menggunakan distro Arch Linux.
+Kebutuhan  Update repo Sediakan akun Oracle, kalo belum punya daftar dulu Koneksi internet (ini mah wajib :v)  Tutorial Pertama, kita clone dulu oracle-xe dari repo AUR.</description>
+    </item>
+    
+  </channel>
+</rss>

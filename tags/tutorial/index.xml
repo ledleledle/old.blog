@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on ledleledle&#39;s Blog</title>
+    <link>https://ledleledle.github.io/blog/tags/tutorial/</link>
+    <description>Recent content in tutorial on ledleledle&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 24 Apr 2020 12:50:06 +0700</lastBuildDate>
+    
+	<atom:link href="https://ledleledle.github.io/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reflash Original Firmware TP-Link MR3420 V.2</title>
+      <link>https://ledleledle.github.io/blog/post/reflash-original-firmware-tp-link-mr3420-v2/</link>
+      <pubDate>Fri, 24 Apr 2020 12:50:06 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/reflash-original-firmware-tp-link-mr3420-v2/</guid>
+      <description>Halo teman-teman, kali ini saya akan membahas tentang bagaimana cara reflash original firmware dari OpenWRT pada router TP-Link MR3420 V.2.
+Spesifikasi dan Kebutuhan  Router (sudah pasti) OS Linux Firmware bawaan TP-Link disini  Tutorial  Step pertama, ekstrak file firmware terlebih dahulu $ unzip &amp;#34;TL-MR3420_V2_150319.zip&amp;#34;
+  Rename file firmware dengan nama firmware.bin agar dalam pengerjaannya jadi lebih mudah dan simple. $ mv &amp;#34;mr3420v2_en_3_16_9_up_boot(150319).bin&amp;#34; firmware.bin
+  Hapus beberapa byte dari Firmware dengan perintah dd .</description>
+    </item>
+    
+  </channel>
+</rss>
