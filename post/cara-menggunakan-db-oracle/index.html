@@ -9,10 +9,10 @@
 
   <title>Cara Menggunakan Database Oracle - ledleledle&#39;s Blog</title>
   <meta name="description" content="Intro Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)
- WARNING : Screenshot besar
+ WARNING : Banyak Screenshot dan ukurannya besar-besar!!!
  Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.
-@root&gt; /etc/rc.d/oracle-xe status Jika Oracle Server belum berjalan, jalankan perintah berikut untuk menjalankan servernya.
-@root&gt; /etc/rc.d/oracle-xe start Lalu kita bisa langsung login ke Oracle Sqlplus.">
+@root&gt; /etc/rc.d/oracle-xe status Jika tidak, saat login kita akan mendapati error seperti contoh berikut
+Enter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-27101: shared memory realm does not exist Linux-x86_64 Error: 2: No such file or directory Process ID: 0 Session ID: 0 Serial number: 0 Jika Oracle Server belum berjalan atau dapat error seperti itu saat login, jalankan perintah berikut untuk menjalankan servernya.">
   <meta name="author" content="Leon Prasetya Mulya"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -61,9 +61,9 @@
     "name" : "Leon Prasetya Mulya"
   },
   "headline": "Cara Menggunakan Database Oracle",
-  "description" : "Intro Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)\n WARNING : Screenshot besar\n Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.\n@root\x26gt; \/etc\/rc.d\/oracle-xe status Jika Oracle Server belum berjalan, jalankan perintah berikut untuk menjalankan servernya.\n@root\x26gt; \/etc\/rc.d\/oracle-xe start Lalu kita bisa langsung login ke Oracle Sqlplus.",
+  "description" : "Intro Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)\n WARNING : Banyak Screenshot dan ukurannya besar-besar!!!\n Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.\n@root\x26gt; \/etc\/rc.d\/oracle-xe status Jika tidak, saat login kita akan mendapati error seperti contoh berikut\nEnter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-27101: shared memory realm does not exist Linux-x86_64 Error: 2: No such file or directory Process ID: 0 Session ID: 0 Serial number: 0 Jika Oracle Server belum berjalan atau dapat error seperti itu saat login, jalankan perintah berikut untuk menjalankan servernya.",
   "inLanguage" : "en",
-  "wordCount":  152 ,
+  "wordCount":  387 ,
   "datePublished" : "2020-04-26T15:08:47",
   "dateModified" : "2020-04-26T15:08:47",
   "image" : "https:\/\/ledleledle.github.io\/blog\/img\/avatar-icon.png",
@@ -84,10 +84,10 @@
 
 <meta property="og:title" content="Cara Menggunakan Database Oracle" />
 <meta property="og:description" content="Intro Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)
- WARNING : Screenshot besar
+ WARNING : Banyak Screenshot dan ukurannya besar-besar!!!
  Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.
-@root&gt; /etc/rc.d/oracle-xe status Jika Oracle Server belum berjalan, jalankan perintah berikut untuk menjalankan servernya.
-@root&gt; /etc/rc.d/oracle-xe start Lalu kita bisa langsung login ke Oracle Sqlplus.">
+@root&gt; /etc/rc.d/oracle-xe status Jika tidak, saat login kita akan mendapati error seperti contoh berikut
+Enter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-27101: shared memory realm does not exist Linux-x86_64 Error: 2: No such file or directory Process ID: 0 Session ID: 0 Serial number: 0 Jika Oracle Server belum berjalan atau dapat error seperti itu saat login, jalankan perintah berikut untuk menjalankan servernya.">
 <meta property="og:image" content="https://ledleledle.github.io/blog/img/avatar-icon.png" />
 <meta property="og:url" content="https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/" />
 <meta property="og:type" content="website" />
@@ -245,10 +245,10 @@
   <i class="fas fa-calendar"></i>&nbsp;Posted on April 26, 2020
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;152&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;387&nbsp;words
   
   
     
@@ -276,39 +276,139 @@
         <h3 id="intro">Intro</h3>
 <p>Sebelumnya kita telah belajar tentang installasi <a href="../installasi-oracle-xe/">Database Oracle di Arch Linux</a>. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)</p>
 <blockquote>
-<p><strong>WARNING</strong> : Screenshot besar</p>
+<p><strong>WARNING</strong> : Banyak Screenshot dan ukurannya besar-besar!!!</p>
 </blockquote>
 <h3 id="contents">Contents</h3>
 <p><strong>Pertama</strong>, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">@root&gt; /etc/rc.d/oracle-xe status
-</code></pre></div><p>Jika Oracle Server belum berjalan, jalankan perintah berikut untuk menjalankan servernya.</p>
+</code></pre></div><p>Jika tidak, saat login kita akan mendapati error seperti contoh berikut</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">Enter user-name: hr
+Enter password:
+ERROR:
+ORA-01034: ORACLE not available
+ORA-27101: shared memory realm does not exist
+Linux-x86_64 Error: 2: No such file or directory
+Process ID: 0
+Session ID: 0 Serial number: 0
+</code></pre></div><p>Jika Oracle Server belum berjalan atau dapat error seperti itu saat login, jalankan perintah berikut untuk menjalankan servernya.</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">@root&gt; /etc/rc.d/oracle-xe start
 </code></pre></div><p>Lalu kita bisa langsung login ke Oracle Sqlplus.</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ sqlplus /nolog
 </code></pre></div><h5 id="output-1">Output 1</h5>
-<p><img src="1.png" alt="ss1"></p>
+
+<link rel="stylesheet" href="https://ledleledle.github.io/blog/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="1.png" alt="Cek service Oracle dan Login dengan user system"/>
+    </div>
+    <a href="1.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
 <p><strong>Kedua</strong>, kita akan mengaktifkan user <strong>hr</strong> dengan perintah.
 <div class="highlight"><pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">SQL</span> <span class="o">&gt;</span> <span class="k">alter</span> <span class="k">user</span> <span class="n">hr</span> <span class="n">identified</span> <span class="k">by</span> <span class="n">oracle</span> <span class="n">account</span> <span class="n">unlock</span><span class="p">;</span></code></pre></div></p>
 <h5 id="output-2">Output 2</h5>
-<p><img src="2.png" alt="ss2"></p>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="2.png" alt="Mengaktifkan user hr"/>
+    </div>
+    <a href="2.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
 <p><strong>Ketiga</strong>, login dengan user <strong>hr</strong>.</p>
 <h5 id="output-3">Output 3</h5>
-<p><img src="3.png" alt="ss3"></p>
-<blockquote>
-<p><strong>Cukup</strong> sampai sini saja, mulai dari sini saya akan langsung mengerjakan tugasnya.</p>
-</blockquote>
-<h4 id="tugas">Tugas</h4>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="3.png" alt="Login dengan user hr"/>
+    </div>
+    <a href="3.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<h4 id="permasalahan">Permasalahan</h4>
+<p>User ini <strong>(hr)</strong> sudah mengandung banyak tabel, sedangkan saya menginginkan database yang <em>fresh</em>, dikarenakan Oracle tidak dapat membuat database baru.
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="4.png" alt="Database pada user hr yang sudah terisi dengan tabel"/>
+    </div>
+    <a href="4.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<p>Untuk itu mari kita logout dulu dan membuat user baru.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">SQL &gt; exit
+</code></pre></div><p>Untuk membuat user baru, kita harus masuk menggunakan akun system <em>(kalau MySQL user root)</em>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">SQL&gt; connect sys as sysdba
+</code></pre></div><p>Buat user baru dengan nama dan password sesuai selera (disini saya menggunakan user dan password <strong>uts</strong>). Dan juga berikan semua akses ke database pada user ini. Berikut perintahnya.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">SQL&gt; CREATE USER uts IDENTIFIED BY uts;
+SQL&gt; ALTER USER uts QUOTA unlimited ON SYSTEM;
+SQL&gt; GRANT CREATE SESSION, CONNECT, RESOURCE, DBA TO uts;
+SQL&gt; GRANT ALL PRIVILEGES TO uts;
+</code></pre></div>
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="5.png" alt="Saat pembuatan user baru"/>
+    </div>
+    <a href="5.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Sebagai hasilnya, saat kita login dengan user baru. Kita akan mendapatkan database baru yang kosong.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">SQL&gt; SELECT * FROM tab;
+
+no rows selected
+</code></pre></div><h3 id="tugas">Tugas</h3>
 <p>Jadi untuk tugasnya adalah membuat susunan tabel seperti gambar berikut.
-<img src="3nf.png" alt="tugasnya"></p>
-<h4 id="pengerjaan">Pengerjaan</h4>
-<p>blabla</p>
-<h3 id="sumber-">Sumber :</h3>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="3nf.png" alt="Tugasnya"/>
+    </div>
+    <a href="3nf.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<h3 id="pengerjaan">Pengerjaan</h3>
+<p>Okay&hellip; Pertama buat dulu semua tabelnya. Buat yang dasar-dasar dulu, maksudnya kan disana ada table yang mempunya <strong>FK</strong> (Foreign Key), itu kita buat belakangan saja, nanti sisanya akan kita buat dengan mudah :) <strong>insyaallah</strong>.</p>
+<h4 id="-tabel-yang-pertama-akan-kita-buat-">* Tabel yang pertama akan kita buat :</h4>
+<ul>
+<li>Pasien</li>
+<li>Obat</li>
+<li>Penyakit</li>
+<li>Dokter</li>
+</ul>
+<h4 id="-tabel-yang-dibuat-terakhir-">* Tabel yang dibuat terakhir :</h4>
+<ul>
+<li>Pemeriksaan</li>
+<li>Resep</li>
+</ul>
+<h4 id="query">Query</h4>
+<p>Tabel Pasien</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">SQL&gt;
+</code></pre></div><h3 id="sumber-">Sumber :</h3>
 <ul>
 <li><a href="http://www.kuliahkomputer.com/2020/04/cara-menggunakan-database-oracle.html">http://www.kuliahkomputer.com/2020/04/cara-menggunakan-database-oracle.html</a></li>
+<li><a href="https://stackoverflow.com/questions/9534136/how-to-create-a-new-database-after-initally-installing-oracle-database-11g-expre">https://stackoverflow.com/questions/9534136/how-to-create-a-new-database-after-initally-installing-oracle-database-11g-expre</a></li>
 <li>Kelas perkuliahan Basis Data</li>
 </ul>
-<h4 id="akhir-kata">Akhir kata</h4>
-<p>Semoga nilai akhir saya tidak buruk-buruk amat, sekian dan terimakasih.</p>
+<h3 id="akhir-kata">Akhir kata</h3>
+<p>Semoga nilai akhir saya tidak buruk-buruk amat.
+<strong>Sekian dan terimakasih.</strong></p>
 <blockquote>
 <p>Comments disabled by admin.</p>
 </blockquote>
@@ -437,6 +537,14 @@
                   <span class="fa-stack fa-lg">
                     <i class="fas fa-circle fa-stack-2x"></i>
                     <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCpNBQxisAWXLUmpCGt_GyvA" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
