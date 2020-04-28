@@ -60,11 +60,11 @@ Specification and requirements First, i use Arch Linux Distros, the installation
   "headline": "How I Made Hugo Blog",
   "description" : "Intro Hey guys, i\x26rsquo;ll teach you how to made blog with hugo. First i\x26rsquo;ll explain a bit about hugo, Hugo is a fast and modern static site generator written in Go language, so basically you don\x26rsquo;t need some back-end code. You just install it, made a content, then generate your html code. Simple enought right. So let\x26rsquo;s jump to tutorial.\nSpecification and requirements First, i use Arch Linux Distros, the installation maybe a bit differ, but others absolutelly same.",
   "inLanguage" : "en",
-  "wordCount":  108 ,
+  "wordCount":  364 ,
   "datePublished" : "2020-04-24T10:40:55",
   "dateModified" : "2020-04-24T10:40:55",
   "image" : "https:\/\/ledleledle.github.io\/blog\/img\/avatar-icon.png",
-  "keywords" : [ "hugo" ],
+  "keywords" : [ "hugo, tutorial" ],
   "mainEntityOfPage" : "https:\/\/ledleledle.github.io\/blog\/post\/how-i-made-hugo-blog\/",
   "publisher" : {
     "@type": "Organization",
@@ -250,10 +250,10 @@ if (!doNotTrack) {
   <i class="fas fa-calendar"></i>&nbsp;Posted on April 24, 2020
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;108&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;364&nbsp;words
   
   
     
@@ -278,20 +278,84 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h4 id="intro">Intro</h4>
+        <h3 id="intro">Intro</h3>
 <p>Hey guys, i&rsquo;ll teach you how to made blog with hugo. First i&rsquo;ll explain a bit about hugo, Hugo is a fast and modern static site generator written in Go language, so basically you don&rsquo;t need some back-end code. You just install it, made a content, then generate your html code. Simple enought right. So let&rsquo;s jump to tutorial.</p>
-<h4 id="specification-and-requirements">Specification and requirements</h4>
+<h3 id="specification-and-requirements">Specification and requirements</h3>
 <p>First, i use Arch Linux Distros, the installation maybe a bit differ, but others absolutelly same. Make sure your repository always up to date.</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo pacman -Syu hugo
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ sudo pacman -Syu hugo
 </code></pre></div><p>If you use other distros, you can check a link here <a href="https://gohugo.io/getting-started/installing/">Hugo Installation Guide</a></p>
-<h4 id="tutorial">Tutorial</h4>
-<p>Easy right&hellip;</p>
+<h3 id="tutorial">Tutorial</h3>
+<p>Okay.. i assume you&rsquo;re already install Hugo, once Hugo installed, you can create a Hugo sites by running.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo new site blog
+
+#replace blog with the name you want
+</code></pre></div><p>Then go to your site directory.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ cd blog
+</code></pre></div><p>So&hellip; Next we need template. Find one at <a href="https://themes.gohugo.io/">Official Hugo Website Here</a>. There are many choices, choose the one you like. For example i choose <a href="https://themes.gohugo.io/hugo.386/">Hugo.386</a>. Download theme using <code>git</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git submodule add https://gitlab.com/maxlefou/hugo.386 themes/hugo.386
+</code></pre></div><p><strong>If you facing error</strong> like this.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">fatal: not a git repository (or any of the parent directories): .git
+</code></pre></div><p><strong>Try</strong> <code>git init</code> to your main folder. Then run command <code>git submodule</code> again.</p>
+<p>Then go to <code>themes/hugo.386/exampleSite</code>. There are examples that you can use.
+
+<link rel="stylesheet" href="https://ledleledle.github.io/blog/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="1.png" alt="exampleSite"/>
+    </div>
+    <a href="1.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<p>Copy all (except README.md). To your main directory. Like this.
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="2.png" alt="copying exampleSite to main directory"/>
+    </div>
+    <a href="2.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<p>Open <code>config.toml</code>. Edit everything you need, if there is anything you don&rsquo;t need, just mark it with <code>#</code>. The following example.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">baseurl = &#34;/&#34;
+title = &#34;ledleledle&#39;s Blog&#34;
+#languageCode = &#34;en&#34;
+#DefaultContentLanguage = &#34;en&#34;
+preserveTaxonomyNames = true
+theme = &#34;hugo.386&#34;
+...
+</code></pre></div><p>You can freely customize the information in <code>config.toml</code> files. If you done, lets test the site by running this command.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo serve
+</code></pre></div><p>Open <code>http://localhost:1313</code> in your browser.
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="3.png" alt="Preview site"/>
+    </div>
+    <a href="3.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<p>To add new content in your blog, simply running this command.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo new post/new_article.md
+</code></pre></div><p>Fill the content as you like, see an example of the writing on <code>content</code> folder that you copied before.</p>
+<p><strong>Next</strong>. I&rsquo;ll post tutorial to host it on <strong>Github Page</strong>.</p>
+<h3 id="outro">Outro</h3>
+<p>Well thats it&hellip; If you&rsquo;re facing a problem comments down bellow. See you in next tutorial.</p>
 
 
         
           <div class="blog-tags">
             
               <a href="https://ledleledle.github.io/blog/tags/hugo/">hugo</a>&nbsp;
+            
+              <a href="https://ledleledle.github.io/blog/tags/tutorial/">tutorial</a>&nbsp;
             
           </div>
         
@@ -355,6 +419,17 @@ if (!doNotTrack) {
 
         
           
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/blog/post/reflash-original-firmware-tp-link-mr3420-v2/">Reflash Original Firmware TP-Link MR3420 V.2</a></li>
+                
+              </ul>
 
           
         
