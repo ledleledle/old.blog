@@ -24,7 +24,7 @@ Enter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-2
     </item>
     
     <item>
-      <title>Installasi Oracle Xe</title>
+      <title>Installasi Oracle XE</title>
       <link>https://ledleledle.github.io/blog/post/installasi-oracle-xe/</link>
       <pubDate>Sun, 26 Apr 2020 05:00:02 +0700</pubDate>
       
@@ -62,9 +62,8 @@ Specification and requirements First, i use Arch Linux Distros, the installation
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ledleledle.github.io/blog/page/about/</guid>
-      <description>Intro Website ini peralihan dari blog saya yang sebelumnya yaitu https://leontodsky.blogspot.com. Karena saya lebih tertarik dengan Hugo dibanding dengan Blogspot :v Karena mudah dioprek isinya. Mungkin blog ini selanjutnya akan saya isi dengan konten berbahasa Inggris.
-Bio Saya mahasiswa gabud angkatan 2016, menyukai linux desktop ricing, tidak tertarik pada perkuliahan (saya dulu dipaksa kuliah). Pemrograman cuma sebatas hoby dan tidak untuk pekerjaan.
-Link yang bersangkutan :  https://jatitarokan.web.id https://leontodsky.blogspot.com  Mungkin ada yang suka dengan desktop ricing, Cek gambar dibawah guys, kalo tertarik bisa dicomot di Dotfiles Github saya.</description>
+      <description>Intro Website ini peralihan dari blog saya yang sebelumnya yaitu https://leontodsky.blogspot.com. Karena saya lebih tertarik dengan Hugo dibanding dengan Blogspot :v Karena mudah dioprek isinya dan karena Hugo adalah framework untuk meng-generate website statis, jadi dalam hal menulis konten Hugo menawarkan keunggulan yaitu saya bisa menulis konten tanpa internet sekalipun :D
+Bio Saya mahasiswa gabud angkatan 2016, menyukai linux desktop ricing, tidak tertarik pada perkuliahan (saya dulu dipaksa kuliah). Pemrograman cuma sebatas hoby dan tidak untuk pekerjaan.</description>
     </item>
     
   </channel>

@@ -63,7 +63,7 @@ Enter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-2
   "headline": "Cara Menggunakan Database Oracle",
   "description" : "Intro Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)\n WARNING : Banyak Screenshot dan ukurannya besar-besar!!!\n Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.\n@root\x26gt; \/etc\/rc.d\/oracle-xe status Jika tidak, saat login kita akan mendapati error seperti contoh berikut\nEnter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-27101: shared memory realm does not exist Linux-x86_64 Error: 2: No such file or directory Process ID: 0 Session ID: 0 Serial number: 0 Jika Oracle Server belum berjalan atau dapat error seperti itu saat login, jalankan perintah berikut untuk menjalankan servernya.",
   "inLanguage" : "en",
-  "wordCount":  387 ,
+  "wordCount":  690 ,
   "datePublished" : "2020-04-26T15:08:47",
   "dateModified" : "2020-04-26T15:08:47",
   "image" : "https:\/\/ledleledle.github.io\/blog\/img\/avatar-icon.png",
@@ -107,6 +107,17 @@ Enter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-2
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', ' UA-164497964-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
   </head>
@@ -245,10 +256,10 @@ Enter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-2
   <i class="fas fa-calendar"></i>&nbsp;Posted on April 26, 2020
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;387&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;690&nbsp;words
   
   
     
@@ -397,21 +408,160 @@ no rows selected
 <li>Pemeriksaan</li>
 <li>Resep</li>
 </ul>
-<h4 id="query">Query</h4>
-<p>Tabel Pasien</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">SQL&gt;
-</code></pre></div><h3 id="sumber-">Sumber :</h3>
+<h3 id="query">Query</h3>
+<blockquote>
+<p><strong>Eits&hellip; Stop dulu!</strong></p>
+</blockquote>
+<p><strong>Catatan</strong> : Setelah saya baca-baca tentang tipe data Oracle dan MySQL ternyata tidak sama dan disini karena soal yang diberikan (mungkin) mengambil format tipe data MySQL jadi saya akan melakukan <strong>cocoklogi</strong> antara MySQL dan Oracle, jadi jika ada yang salah tolong maklumi saya atau koreksi saya di kolom komentar :)</p>
+<h4 id="berikut-komparasi-tipe-data-oracle-dengan-mysql-">Berikut komparasi tipe data Oracle dengan MySQL :</h4>
+<ul>
+<li>Komparasi <strong>Character</strong> antara MySQL dan Oracle
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="6.png" alt="Komparasi Character antara MySQL dan Oracle"/>
+    </div>
+    <a href="6.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</li>
+<li>Komparasi <strong>Numeric</strong> antara MySQL dan Oracle
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="7.png" alt="Komparasi Numeric antara MySQL dan Oracle"/>
+    </div>
+    <a href="7.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</li>
+<li>Komparasi <strong>Datetime</strong> antara MySQL dan Oracle
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="8.png" alt="Komparasi Datetime antara MySQL dan Oracle"/>
+    </div>
+    <a href="8.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</li>
+</ul>
+<blockquote>
+<p><strong>Jadi</strong>, kesimpulan saya, Oracle menggunakan format ukuran per <strong>bytes</strong> dan MySQL menggunakan format ukuran per <strong>characters</strong>, tapi kalau dipikir-pikir <code>1 karakter = 1 bytes</code> jadi gaada bedanya. Setelah diketahui kebenaran berikut, kita akan mengambil yang sekiranya sama atau mendekati, tapi jangan lupakan tentang kolom <strong>Explanation</strong>, kolom tersebut yang akan kita jadikan patokannya.
+Beberapa tidak ikut <strong>ter-screenshot</strong> karena terlalu banyak, yang penting saya mengambil yang dibutuhkan saja untuk sekarang. Selengkapnya bisa kalian baca sendiri di <a href="https://www.techonthenet.com/oracle/datatypes.php">Oracle Datatypes</a> dan <a href="https://www.techonthenet.com/mysql/datatypes.php">MySQL Datatypes</a>.</p>
+</blockquote>
+<p><strong>Sooooooooooooooo&hellip;&hellip;</strong> Kita akan list tipe data yang dibutuhkan lalu merubahnya menjadi tipe data Oracle. Berikut daftarnya :</p>
+<ul>
+<li><strong>INT =</strong> tetap INT, namun tidak ada jumlah maksimal karakter.</li>
+<li><strong>DATE =</strong> tetap DATE, karena formatnya sama.</li>
+<li><strong>VARCHAR =</strong> akan digantikan dengan CHAR.</li>
+<li><strong>TEXT =</strong> untuk ini saya kurang yakin, namun kita pilih LONG saja, karena pilihan yang mendekati tipe data TEXT (yang jumlah maksimal karakternya adalah 65.535). LONG memliki ukuran maksimal 2GB (menurut saya kebesaran sih, tapi untuk praktek gakpapa :v ).</li>
+</ul>
+<h5 id="jadi-sudah-kita-putuskan-tipe-data-apa-yang-akan-kita-gunakan-sekarang-mari-kita-kerjakan">Jadi sudah kita putuskan tipe data apa yang akan kita gunakan, sekarang mari kita kerjakan.</h5>
+<h4 id="a-tabel-tanpa-fk">A. Tabel tanpa FK</h4>
+<p><strong>1. Tabel Pasien</strong>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="pasien.png" alt="Buat tabel pasien"/>
+    </div>
+    <a href="pasien.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<p><strong>2. Tabel Obat</strong>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="obat.png" alt="Buat tabel obat"/>
+    </div>
+    <a href="obat.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<p><strong>3. Tabel Penyakit</strong>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="penyakit.png" alt="Buat tabel penyakit"/>
+    </div>
+    <a href="penyakit.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<p><strong>4. Tabel Dokter</strong>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="dokter.png" alt="Buat tabel dokter"/>
+    </div>
+    <a href="dokter.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<p><strong>Dengan begini</strong>, tabel part 1 selesai dibuat.
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="tab1.png" alt="Tampil seluruh tabel yang sudah dibuat"/>
+    </div>
+    <a href="tab1.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+Mari melaju ke langkah selanjutnya.</p>
+<h4 id="b-tabel-dengan-fk">B. Tabel dengan FK</h4>
+<p><strong>1. Tabel Pemeriksaan</strong>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="pemeriksaan.png" alt="Buat tabel pemeriksaan"/>
+    </div>
+    <a href="pemeriksaan.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<p><strong>2. Tabel Resep</strong>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="resep.png" alt="Buat tabel resep"/>
+    </div>
+    <a href="resep.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<h3 id="sumber-">Sumber :</h3>
 <ul>
 <li><a href="http://www.kuliahkomputer.com/2020/04/cara-menggunakan-database-oracle.html">http://www.kuliahkomputer.com/2020/04/cara-menggunakan-database-oracle.html</a></li>
 <li><a href="https://stackoverflow.com/questions/9534136/how-to-create-a-new-database-after-initally-installing-oracle-database-11g-expre">https://stackoverflow.com/questions/9534136/how-to-create-a-new-database-after-initally-installing-oracle-database-11g-expre</a></li>
+<li><a href="https://www.techonthenet.com/oracle/datatypes.php">https://www.techonthenet.com/oracle/datatypes.php</a></li>
+<li><a href="https://www.techonthenet.com/mysql/datatypes.php">https://www.techonthenet.com/mysql/datatypes.php</a></li>
 <li>Kelas perkuliahan Basis Data</li>
 </ul>
 <h3 id="akhir-kata">Akhir kata</h3>
-<p>Semoga nilai akhir saya tidak buruk-buruk amat.
+<p><strong>Sekali lagi</strong>, kalau saya ada salah mohon dimaafkan atau kalau bisa kalian koreksi di kolom komentar saja. Semoga nilai akhir saya tidak buruk-buruk amat.
 <strong>Sekian dan terimakasih.</strong></p>
-<blockquote>
-<p>Comments disabled by admin.</p>
-</blockquote>
 
 
         
@@ -491,7 +641,7 @@ no rows selected
                   <ul>
                 
                 
-                    <li><a href="/blog/post/installasi-oracle-xe/">Installasi Oracle Xe</a></li>
+                    <li><a href="/blog/post/installasi-oracle-xe/">Installasi Oracle XE</a></li>
                 
               </ul>
 
@@ -503,7 +653,7 @@ no rows selected
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://ledleledle.github.io/blog/post/installasi-oracle-xe/" data-toggle="tooltip" data-placement="top" title="Installasi Oracle Xe">&larr; Previous Post</a>
+              <a href="https://ledleledle.github.io/blog/post/installasi-oracle-xe/" data-toggle="tooltip" data-placement="top" title="Installasi Oracle XE">&larr; Previous Post</a>
             </li>
           
           
@@ -511,6 +661,23 @@ no rows selected
       
 
 
+      
+        
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle">comments</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'https:\/\/ledleledle.github.io\/blog\/post\/cara-menggunakan-db-oracle';
+            };
+
+          </script>
+          </div>
+          
+        
+        
       
 
     </div>
