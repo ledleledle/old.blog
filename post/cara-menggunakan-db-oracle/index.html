@@ -63,7 +63,7 @@ Enter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-2
   "headline": "Tugas : Cara Menggunakan Database Oracle",
   "description" : "Intro Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)\n WARNING : Banyak Screenshot dan ukurannya besar-besar!!!\n Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.\n@root\x26gt; \/etc\/rc.d\/oracle-xe status Jika tidak, saat login kita akan mendapati error seperti contoh berikut\nEnter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-27101: shared memory realm does not exist Linux-x86_64 Error: 2: No such file or directory Process ID: 0 Session ID: 0 Serial number: 0 Jika Oracle Server belum berjalan atau dapat error seperti itu saat login, jalankan perintah berikut untuk menjalankan servernya.",
   "inLanguage" : "en",
-  "wordCount":  758 ,
+  "wordCount":  807 ,
   "datePublished" : "2020-04-26T15:08:47",
   "dateModified" : "2020-04-26T15:08:47",
   "image" : "https:\/\/ledleledle.github.io\/blog\/img\/avatar-icon.png",
@@ -159,12 +159,6 @@ if (!doNotTrack) {
         
 
         
-          <li>
-            <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch" style="outline: none;">
-              <span class="hidden-sm hidden-md hidden-lg">Search</span> <span id="searchGlyph" class="glyphicon glyphicon-search"></span>
-            </a>
-          </li>
-        
       </ul>
     </div>
 
@@ -182,23 +176,6 @@ if (!doNotTrack) {
 </nav>
 
 
-
-  <div id="modalSearch" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Search ledleledle&#39;s Blog</h4>
-        </div>
-        <div class="modal-body">
-          <gcse:search></gcse:search>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
     
@@ -282,7 +259,7 @@ if (!doNotTrack) {
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;758&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;807&nbsp;words
   
   
     
@@ -481,10 +458,10 @@ Beberapa tidak ikut <strong>ter-screenshot</strong> karena terlalu banyak, yang 
 </blockquote>
 <p><strong>Sooooooooooooooo&hellip;&hellip;</strong> Kita akan list tipe data yang dibutuhkan lalu merubahnya menjadi tipe data Oracle. Berikut daftarnya :</p>
 <ul>
-<li><strong>INT =</strong> akan digantikan dengan NUMERIC.</li>
-<li><strong>DATE =</strong> tetap DATE, karena formatnya sama.</li>
-<li><strong>VARCHAR =</strong> akan digantikan dengan CHAR.</li>
-<li><strong>TEXT =</strong> untuk ini saya kurang yakin, namun kita pilih LONG saja, karena pilihan yang mendekati tipe data TEXT (yang jumlah maksimal karakternya adalah 65.535). LONG memliki ukuran maksimal 2GB (menurut saya kebesaran sih, tapi untuk praktek gakpapa :v ).</li>
+<li><strong>INT =</strong> akan digantikan dengan <strong>NUMERIC</strong>.</li>
+<li><strong>DATE =</strong> tetap <strong>DATE</strong>, karena formatnya sama.</li>
+<li><strong>VARCHAR =</strong> akan digantikan dengan <strong>CHAR</strong>.</li>
+<li><strong>TEXT =</strong> untuk ini saya kurang yakin, namun kita pilih <strong>LONG</strong> saja, karena pilihan yang mendekati tipe data <strong>TEXT</strong> (yang jumlah maksimal karakternya adalah 65.535). <strong>LONG</strong> memliki ukuran maksimal 2GB (menurut saya kebesaran sih, tapi untuk praktek gakpapa :v ).</li>
 </ul>
 <h5 id="jadi-sudah-kita-putuskan-tipe-data-apa-yang-akan-kita-gunakan-sekarang-mari-kita-kerjakan">Jadi sudah kita putuskan tipe data apa yang akan kita gunakan, sekarang mari kita kerjakan.</h5>
 <h4 id="a-tabel-tanpa-fk">A. Tabel tanpa FK</h4>
@@ -583,13 +560,14 @@ Setelah saya lihat-lihat lagi, seperti arah panah antara tabel pemeriksaan dan r
 <div class="box" >
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="tugas-ref.png" alt="Mungkin dibalik jadi seperti ini :D"/>
+      <img itemprop="thumbnail" src="tugas-ref.png" alt="Mungkin jika dibalik jadi seperti ini :D"/>
     </div>
     <a href="tugas-ref.png" itemprop="contentUrl"></a>
   </figure>
 </div>
-</p>
-<p>Jadi seperti ini tabelnya.
+
+Jadi gini, kita balik arahnya saja wkwkwkwk.</p>
+<p><strong>Dan&hellip;</strong> Seperti ini query dan hasil tabelnya.
 
 
 <div class="box" >
@@ -601,6 +579,7 @@ Setelah saya lihat-lihat lagi, seperti arah panah antara tabel pemeriksaan dan r
   </figure>
 </div>
 </p>
+<p>Okay&hellip; Akhirnya selesai juga, yang terakhir perjuangan banget + deg deg an :v Soalnya ini gak bisa dilihat lognya pakai tombol arah atas dan juga gak bisa di copas, kalau error balik ngode lagi, tapi alhamdulillah lancar-lancar saja :D</p>
 <h3 id="sumber-">Sumber :</h3>
 <ul>
 <li><a href="http://www.kuliahkomputer.com/2020/04/cara-menggunakan-database-oracle.html">http://www.kuliahkomputer.com/2020/04/cara-menggunakan-database-oracle.html</a></li>
@@ -805,18 +784,6 @@ Setelah saya lihat-lihat lagi, seperti arah panah antara tabel pemeriksaan dan r
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://ledleledle.github.io/blog/js/load-photoswipe.js"></script>
 
 
-
-<script>
-  (function() {
-    var cx = '011037554399388776631:outjdovzjyd';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
 
 
 
