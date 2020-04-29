@@ -5,10 +5,21 @@
     <link>https://ledleledle.github.io/blog/tags/tutorial/</link>
     <description>Recent content in tutorial on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Apr 2020 12:50:06 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 11:31:33 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mendapatkan Pesan Error lib32-nss: /usr/lib32/p11-kit-trust.so exists in filesystem Saat Update Arch Linux</title>
+      <link>https://ledleledle.github.io/blog/post/lib32-nss-exists-in-filesystem/</link>
+      <pubDate>Wed, 29 Apr 2020 11:31:33 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/lib32-nss-exists-in-filesystem/</guid>
+      <description>Intro Pernahkah kalian dapat pesan error seperti ini saat anda melakukan update Arch Linux pacman -Syu? Pesan error ini dikarenakan paket nss dan lib32-nss sebelum versi 3.51.1-1 masing-masing tidak memiliki soname. Lalu pada versi 3.51.1-1 telah ditambahkan soname tersebut, sehingga update selanjutnya perlu menimpa file yang tidak dilacak yang dibuat oleh ldconfig.
+Solusinya Caranya mudah teman-teman. Saat update gunakan perintah ini.
+@root&amp;gt; pacman -Syu --overwrite /usr/lib\*/p11-kit-trust.so Tadaa.. Pesan error sudah tidak muncul lagi dan proses update tidak gagal lagi.</description>
+    </item>
     
     <item>
       <title>Reflash Original Firmware TP-Link MR3420 V.2</title>

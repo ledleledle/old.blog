@@ -16,11 +16,10 @@
       <pubDate>Sun, 26 Apr 2020 15:08:47 +0700</pubDate>
       
       <guid>https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/</guid>
-      <description>Intro Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)
+      <description>Intro  Ternyata sudah ada materinya di classroom -_- . Saya terlanjur ublek-ublek di internet :( Efek kuota sedikit, jadi males buka-buka kelas.
+ Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)
  WARNING : Banyak Screenshot dan ukurannya besar-besar!!!
- Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.
-@root&amp;gt; /etc/rc.d/oracle-xe status Jika tidak, saat login kita akan mendapati error seperti contoh berikut
-Enter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-27101: shared memory realm does not exist Linux-x86_64 Error: 2: No such file or directory Process ID: 0 Session ID: 0 Serial number: 0 Jika Oracle Server belum berjalan atau dapat error seperti itu saat login, jalankan perintah berikut untuk menjalankan servernya.</description>
+ Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.</description>
     </item>
     
     <item>

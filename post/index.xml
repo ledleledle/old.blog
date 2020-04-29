@@ -5,10 +5,21 @@
     <link>https://ledleledle.github.io/blog/post/</link>
     <description>Recent content in Posts on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Apr 2020 15:08:47 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 11:31:33 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mendapatkan Pesan Error lib32-nss: /usr/lib32/p11-kit-trust.so exists in filesystem Saat Update Arch Linux</title>
+      <link>https://ledleledle.github.io/blog/post/lib32-nss-exists-in-filesystem/</link>
+      <pubDate>Wed, 29 Apr 2020 11:31:33 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/lib32-nss-exists-in-filesystem/</guid>
+      <description>Intro Pernahkah kalian dapat pesan error seperti ini saat anda melakukan update Arch Linux pacman -Syu? Pesan error ini dikarenakan paket nss dan lib32-nss sebelum versi 3.51.1-1 masing-masing tidak memiliki soname. Lalu pada versi 3.51.1-1 telah ditambahkan soname tersebut, sehingga update selanjutnya perlu menimpa file yang tidak dilacak yang dibuat oleh ldconfig.
+Solusinya Caranya mudah teman-teman. Saat update gunakan perintah ini.
+@root&amp;gt; pacman -Syu --overwrite /usr/lib\*/p11-kit-trust.so Tadaa.. Pesan error sudah tidak muncul lagi dan proses update tidak gagal lagi.</description>
+    </item>
     
     <item>
       <title>Tugas : Cara Menggunakan Database Oracle</title>
@@ -16,11 +27,10 @@
       <pubDate>Sun, 26 Apr 2020 15:08:47 +0700</pubDate>
       
       <guid>https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/</guid>
-      <description>Intro Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)
+      <description>Intro  Ternyata sudah ada materinya di classroom -_- . Saya terlanjur ublek-ublek di internet :( Efek kuota sedikit, jadi males buka-buka kelas.
+ Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)
  WARNING : Banyak Screenshot dan ukurannya besar-besar!!!
- Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.
-@root&amp;gt; /etc/rc.d/oracle-xe status Jika tidak, saat login kita akan mendapati error seperti contoh berikut
-Enter user-name: hr Enter password: ERROR: ORA-01034: ORACLE not available ORA-27101: shared memory realm does not exist Linux-x86_64 Error: 2: No such file or directory Process ID: 0 Session ID: 0 Serial number: 0 Jika Oracle Server belum berjalan atau dapat error seperti itu saat login, jalankan perintah berikut untuk menjalankan servernya.</description>
+ Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.</description>
     </item>
     
     <item>

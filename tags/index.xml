@@ -5,10 +5,37 @@
     <link>https://ledleledle.github.io/blog/tags/</link>
     <description>Recent content in Tags on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Apr 2020 15:08:47 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 11:31:33 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>arch</title>
+      <link>https://ledleledle.github.io/blog/tags/arch/</link>
+      <pubDate>Wed, 29 Apr 2020 11:31:33 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/tags/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://ledleledle.github.io/blog/tags/linux/</link>
+      <pubDate>Wed, 29 Apr 2020 11:31:33 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://ledleledle.github.io/blog/tags/tutorial/</link>
+      <pubDate>Wed, 29 Apr 2020 11:31:33 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/tags/tutorial/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>oracle</title>
@@ -43,15 +70,6 @@
       <pubDate>Fri, 24 Apr 2020 12:50:06 +0700</pubDate>
       
       <guid>https://ledleledle.github.io/blog/tags/router/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>https://ledleledle.github.io/blog/tags/tutorial/</link>
-      <pubDate>Fri, 24 Apr 2020 12:50:06 +0700</pubDate>
-      
-      <guid>https://ledleledle.github.io/blog/tags/tutorial/</guid>
       <description></description>
     </item>
     
