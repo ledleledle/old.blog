@@ -5,10 +5,20 @@
     <link>https://ledleledle.github.io/blog/post/</link>
     <description>Recent content in Posts on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Apr 2020 11:31:33 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 11:47:10 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Host Website Hugo di Github</title>
+      <link>https://ledleledle.github.io/blog/post/host-hugo-github/</link>
+      <pubDate>Wed, 29 Apr 2020 11:47:10 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/host-hugo-github/</guid>
+      <description>Sebelumnya saya telah membuat tutorial How I Made Hugo Blog. Ini lanjutan yang telah saya janjikan. Dan maaf saya sekarang pakai Bahasa Indonesia, karena ternyata setelah saya membuat postingan tersebut ternyata Bahasa Inggris saya masih kacau dan terlihat di postingan sebelumnya bahasanya kacau sekali (jadi malu). Yah tidak usah basa-basi lagi.
+Tutorial 1. Generate Static Files Jika sebelumnya kita hanya menjalankan server local dengan perintah hugo serve. Sekarang kita akan meng-generate file statis dengan perintah hugo -D.</description>
+    </item>
     
     <item>
       <title>Mendapatkan Pesan Error lib32-nss: /usr/lib32/p11-kit-trust.so exists in filesystem Saat Update Arch Linux</title>
@@ -27,7 +37,7 @@ Solusinya Caranya mudah teman-teman. Saat update gunakan perintah ini.
       <pubDate>Sun, 26 Apr 2020 15:08:47 +0700</pubDate>
       
       <guid>https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/</guid>
-      <description>Intro  Ternyata sudah ada materinya di classroom -_- . Saya terlanjur ublek-ublek di internet :( Efek kuota sedikit, jadi males buka-buka kelas.
+      <description>Intro  Ternyata sudah ada materinya di classroom -_- . Saya terlanjur ublek-ublek di internet :( Efek kuota sedikit, jadi males buka-buka kelas. Apalagi kelas video dan streaming.
  Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)
  WARNING : Banyak Screenshot dan ukurannya besar-besar!!!
  Contents Pertama, kita cek terlebih dahulu apakah Oracle Server sudah berjalan dengan perintah.</description>
