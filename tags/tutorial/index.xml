@@ -5,10 +5,22 @@
     <link>https://ledleledle.github.io/blog/tags/tutorial/</link>
     <description>Recent content in tutorial on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Apr 2020 11:47:10 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 17:22:33 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kostumisasi Mozila Firefox dengan mengubah userChrome.css</title>
+      <link>https://ledleledle.github.io/blog/post/kostumisasi-mozila-firefox/</link>
+      <pubDate>Thu, 30 Apr 2020 17:22:33 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/kostumisasi-mozila-firefox/</guid>
+      <description>Karena di Grup Facebook banyak yang tanya tentang ini, maka ane buatkan tutorialnya. Ok langsung saja ke tutorial.
+Pertama, kita masuk dulu ke menu config, buka melalui search bar dengan mengetikkan about:config. Klik Accept the Risk and Continue.
+Kedua, cari toolkit.legacyUserProfileCustomizations.stylesheets. Lalu ubah valuenya dari False menjadi True.
+Langkah selanjutnya yaitu membuat/menyunting file userChrome.css. Cara mengetahui direktori penyimpanan file confignya yaitu : Pergi ke Menu Help &amp;gt; Troubleshooting Information.     Cari pada pada bagian Profile Directory, lalu klik Open Directory.</description>
+    </item>
     
     <item>
       <title>Host Website Hugo di Github</title>
