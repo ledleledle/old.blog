@@ -5,10 +5,31 @@
     <link>https://ledleledle.github.io/blog/tags/tutorial/</link>
     <description>Recent content in tutorial on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 30 Apr 2020 17:22:33 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 12:03:50 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fix &#34;a stop job is running for session 2&#34; pada Arch based distro</title>
+      <link>https://ledleledle.github.io/blog/post/fix-a-stop-job-is-running-for-session-2/</link>
+      <pubDate>Sun, 03 May 2020 12:03:50 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/fix-a-stop-job-is-running-for-session-2/</guid>
+      <description>Ditutorial kali ini saya akan membahas tentang error yang sangat mengganggu pada Arch based distro (terutama Manjaro). Saya seringkali berhadapan dengan error yang bertuliskan a stop job is running for session 2. Penampakannya seperti gambar dibawah.     Gimana tidak mengganggu, kalian harus menunggu beberapa menit hanya untuk shutdown laptop/pc kalian. Dan setelah pencarian yang lumayan panjang, akhirnya saya menemukan solusinya CMIW :)
+Yang perlu kalian install yaitu paket watchdog.</description>
+    </item>
+    
+    <item>
+      <title>Device Android Tidak Terdeteksi Di Arch Linux</title>
+      <link>https://ledleledle.github.io/blog/post/device-android-tidak-terdeteksi-di-arch-linux/</link>
+      <pubDate>Sun, 03 May 2020 11:58:17 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/device-android-tidak-terdeteksi-di-arch-linux/</guid>
+      <description>Mungkin kalian pernah/sedang mengalaminya, setelah installasi Arch Linux kalian tidak bisa mengakses MTP Android, atau pertama normal-normal saja tapi tiba-tiba besoknya tidak bisa digunakan. Berikut solusinya.
+Install paket ini dan masalah anda beres.
+$ sudo pacman -S gvfs-mtp Sumber  https://wiki.archlinux.org/index.php/Media_Transfer_Protocol  Sekian tutorial yang pendek ini, semoga bermanfaat :&#39;)</description>
+    </item>
     
     <item>
       <title>Kostumisasi Mozila Firefox dengan mengubah userChrome.css</title>

@@ -4,8 +4,43 @@
   
   <url>
     <loc>https://ledleledle.github.io/blog/</loc>
-    <lastmod>2020-04-30T17:22:33+07:00</lastmod>
+    <lastmod>2020-05-03T12:03:50+07:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/arch/</loc>
+    <lastmod>2020-05-03T12:03:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/post/fix-a-stop-job-is-running-for-session-2/</loc>
+    <lastmod>2020-05-03T12:03:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/linux/</loc>
+    <lastmod>2020-05-03T12:03:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/post/</loc>
+    <lastmod>2020-05-03T12:03:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/</loc>
+    <lastmod>2020-05-03T12:03:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/tags/tutorial/</loc>
+    <lastmod>2020-05-03T12:03:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ledleledle.github.io/blog/post/device-android-tidak-terdeteksi-di-arch-linux/</loc>
+    <lastmod>2020-05-03T11:58:17+07:00</lastmod>
   </url>
   
   <url>
@@ -15,21 +50,6 @@
   
   <url>
     <loc>https://ledleledle.github.io/blog/post/kostumisasi-mozila-firefox/</loc>
-    <lastmod>2020-04-30T17:22:33+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ledleledle.github.io/blog/post/</loc>
-    <lastmod>2020-04-30T17:22:33+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ledleledle.github.io/blog/tags/</loc>
-    <lastmod>2020-04-30T17:22:33+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ledleledle.github.io/blog/tags/tutorial/</loc>
     <lastmod>2020-04-30T17:22:33+07:00</lastmod>
   </url>
   
@@ -46,16 +66,6 @@
   <url>
     <loc>https://ledleledle.github.io/blog/tags/hugo/</loc>
     <lastmod>2020-04-29T11:47:10+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ledleledle.github.io/blog/tags/arch/</loc>
-    <lastmod>2020-04-29T11:31:33+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ledleledle.github.io/blog/tags/linux/</loc>
-    <lastmod>2020-04-29T11:31:33+07:00</lastmod>
   </url>
   
   <url>
