@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ledleledle&#39;s Blog</title>
+    <title>Posts on ledleledle Blog</title>
     <link>https://ledleledle.github.io/blog/post/</link>
-    <description>Recent content in Posts on ledleledle&#39;s Blog</description>
+    <description>Recent content in Posts on ledleledle Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 May 2020 12:03:50 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 15:32:39 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Install Wm Openbox Linux</title>
+      <link>https://ledleledle.github.io/blog/post/install-wm-openbox-linux/</link>
+      <pubDate>Tue, 05 May 2020 15:32:39 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/install-wm-openbox-linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fix &#34;a stop job is running for session 2&#34; pada Arch based distro</title>
