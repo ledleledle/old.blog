@@ -20,15 +20,5 @@
 Tutorial 1. Generate Static Files Jika sebelumnya kita hanya menjalankan server local dengan perintah hugo serve. Sekarang kita akan meng-generate file statis dengan perintah hugo -D.</description>
     </item>
     
-    <item>
-      <title>How I Made Hugo Blog</title>
-      <link>https://ledleledle.github.io/blog/post/how-i-made-hugo-blog/</link>
-      <pubDate>Fri, 24 Apr 2020 10:40:55 +0700</pubDate>
-      
-      <guid>https://ledleledle.github.io/blog/post/how-i-made-hugo-blog/</guid>
-      <description>Intro Hey guys, i&amp;rsquo;ll teach you how to made blog with hugo. First i&amp;rsquo;ll explain a bit about hugo, Hugo is a fast and modern static site generator written in Go language, so basically you don&amp;rsquo;t need some back-end code. You just install it, made a content, then generate your html code. Simple enought right. So let&amp;rsquo;s jump to tutorial.
-Specification and requirements First, i use Arch Linux Distros, the installation maybe a bit differ, but others absolutelly same.</description>
-    </item>
-    
   </channel>
 </rss>

@@ -5,29 +5,10 @@
     <link>https://ledleledle.github.io/blog/</link>
     <description>Recent content on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 May 2020 15:41:18 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 12:03:50 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Mengenal Figma</title>
-      <link>https://ledleledle.github.io/blog/post/mengenal-figma/</link>
-      <pubDate>Tue, 05 May 2020 15:41:18 +0700</pubDate>
-      
-      <guid>https://ledleledle.github.io/blog/post/mengenal-figma/</guid>
-      <description>Figma</description>
-    </item>
-    
-    <item>
-      <title>Install Window Manager Openbox pada OS Linux</title>
-      <link>https://ledleledle.github.io/blog/post/install-wm-openbox-linux/</link>
-      <pubDate>Tue, 05 May 2020 15:32:39 +0700</pubDate>
-      
-      <guid>https://ledleledle.github.io/blog/post/install-wm-openbox-linux/</guid>
-      <description>Pada kesempatan kali ini, saya akan membahas tentang Window Manager(WM) yang sangat populer yaitu Openbox. WM ini sangat digemari kaum ricer karena terkesan minimalis dan mudah di oprek-oprek.
-Saya akan menjelaskan bagaimana cara installasinya, jadi baca baik-baik tutorialnya. Jangan sampai ada yang terlewatkan.</description>
-    </item>
     
     <item>
       <title>Fix &#34;a stop job is running for session 2&#34; pada Arch based distro</title>
@@ -116,16 +97,6 @@ Kebutuhan  Update repo Sediakan akun Oracle, kalo belum punya daftar dulu Koneks
 Spesifikasi dan Kebutuhan  Router (sudah pasti) OS Linux Firmware bawaan TP-Link disini  Tutorial  Step pertama, ekstrak file firmware terlebih dahulu $ unzip &amp;#34;TL-MR3420_V2_150319.zip&amp;#34;
   Rename file firmware dengan nama firmware.bin agar dalam pengerjaannya jadi lebih mudah dan simple. $ mv &amp;#34;mr3420v2_en_3_16_9_up_boot(150319).bin&amp;#34; firmware.bin
   Hapus beberapa byte dari Firmware dengan perintah dd .</description>
-    </item>
-    
-    <item>
-      <title>How I Made Hugo Blog</title>
-      <link>https://ledleledle.github.io/blog/post/how-i-made-hugo-blog/</link>
-      <pubDate>Fri, 24 Apr 2020 10:40:55 +0700</pubDate>
-      
-      <guid>https://ledleledle.github.io/blog/post/how-i-made-hugo-blog/</guid>
-      <description>Intro Hey guys, i&amp;rsquo;ll teach you how to made blog with hugo. First i&amp;rsquo;ll explain a bit about hugo, Hugo is a fast and modern static site generator written in Go language, so basically you don&amp;rsquo;t need some back-end code. You just install it, made a content, then generate your html code. Simple enought right. So let&amp;rsquo;s jump to tutorial.
-Specification and requirements First, i use Arch Linux Distros, the installation maybe a bit differ, but others absolutelly same.</description>
     </item>
     
     <item>
