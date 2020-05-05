@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ledleledle Blog</title>
+    <title>Posts on ledleledle&#39;s Blog</title>
     <link>https://ledleledle.github.io/blog/post/</link>
-    <description>Recent content in Posts on ledleledle Blog</description>
+    <description>Recent content in Posts on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 May 2020 15:32:39 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 15:41:18 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Install Wm Openbox Linux</title>
+      <title>Mengenal Figma</title>
+      <link>https://ledleledle.github.io/blog/post/mengenal-figma/</link>
+      <pubDate>Tue, 05 May 2020 15:41:18 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/mengenal-figma/</guid>
+      <description>Figma</description>
+    </item>
+    
+    <item>
+      <title>Install Window Manager Openbox pada OS Linux</title>
       <link>https://ledleledle.github.io/blog/post/install-wm-openbox-linux/</link>
       <pubDate>Tue, 05 May 2020 15:32:39 +0700</pubDate>
       
       <guid>https://ledleledle.github.io/blog/post/install-wm-openbox-linux/</guid>
-      <description></description>
+      <description>Pada kesempatan kali ini, saya akan membahas tentang Window Manager(WM) yang sangat populer yaitu Openbox. WM ini sangat digemari kaum ricer karena terkesan minimalis dan mudah di oprek-oprek.
+Saya akan menjelaskan bagaimana cara installasinya, jadi baca baik-baik tutorialnya. Jangan sampai ada yang terlewatkan.</description>
     </item>
     
     <item>

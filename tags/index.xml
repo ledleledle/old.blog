@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ledleledle Blog</title>
+    <title>Tags on ledleledle&#39;s Blog</title>
     <link>https://ledleledle.github.io/blog/tags/</link>
-    <description>Recent content in Tags on ledleledle Blog</description>
+    <description>Recent content in Tags on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 May 2020 12:03:50 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 15:41:18 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>arch</title>
-      <link>https://ledleledle.github.io/blog/tags/arch/</link>
-      <pubDate>Sun, 03 May 2020 12:03:50 +0700</pubDate>
+      <title>design</title>
+      <link>https://ledleledle.github.io/blog/tags/design/</link>
+      <pubDate>Tue, 05 May 2020 15:41:18 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/tags/arch/</guid>
+      <guid>https://ledleledle.github.io/blog/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>review</title>
+      <link>https://ledleledle.github.io/blog/tags/review/</link>
+      <pubDate>Tue, 05 May 2020 15:41:18 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/tags/review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
       <link>https://ledleledle.github.io/blog/tags/linux/</link>
-      <pubDate>Sun, 03 May 2020 12:03:50 +0700</pubDate>
+      <pubDate>Tue, 05 May 2020 15:32:39 +0700</pubDate>
       
       <guid>https://ledleledle.github.io/blog/tags/linux/</guid>
       <description></description>
@@ -31,9 +40,18 @@
     <item>
       <title>tutorial</title>
       <link>https://ledleledle.github.io/blog/tags/tutorial/</link>
-      <pubDate>Sun, 03 May 2020 12:03:50 +0700</pubDate>
+      <pubDate>Tue, 05 May 2020 15:32:39 +0700</pubDate>
       
       <guid>https://ledleledle.github.io/blog/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch</title>
+      <link>https://ledleledle.github.io/blog/tags/arch/</link>
+      <pubDate>Sun, 03 May 2020 12:03:50 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/tags/arch/</guid>
       <description></description>
     </item>
     
