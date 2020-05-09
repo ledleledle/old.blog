@@ -5,10 +5,20 @@
     <link>https://ledleledle.github.io/blog/post/</link>
     <description>Recent content in Posts on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 May 2020 12:03:50 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 15:41:18 +0700</lastBuildDate>
     
 	<atom:link href="https://ledleledle.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mengenal Aplikasi Figma</title>
+      <link>https://ledleledle.github.io/blog/post/mengenal-figma/</link>
+      <pubDate>Tue, 05 May 2020 15:41:18 +0700</pubDate>
+      
+      <guid>https://ledleledle.github.io/blog/post/mengenal-figma/</guid>
+      <description>Apa itu Figma? Figma adalah salah satu aplikasi yang digunakan untuk membuat design aplikasi mobile, desktop, website dll.
+Kelebihan :  Keunggulannya adalah aplikasi ini berbasis web, jadi bisa dibuka di OS apa saja. Tools yang simpel, sedikit dan mudah dipahami. Menyediakan blok code dari design yang telah dibuat (berupa CSS).  Kelemahan :  Kelemahannya mungkin karena web based, jadi harus wajib tersambung dengan internet saat penggunaannya.  Untuk menggunakannya caranya mudah, kalian bisa langsung menuju website resminya di figma.</description>
+    </item>
     
     <item>
       <title>Fix &#34;a stop job is running for session 2&#34; pada Arch based distro</title>
