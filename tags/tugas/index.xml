@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tugas on ledleledle&#39;s Blog</title>
-    <link>https://ledleledle.github.io/blog/tags/tugas/</link>
+    <link>https://leonprasetya.my.id/old.blog/tags/tugas/</link>
     <description>Recent content in tugas on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 26 Apr 2020 15:08:47 +0700</lastBuildDate>
     
-	<atom:link href="https://ledleledle.github.io/blog/tags/tugas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leonprasetya.my.id/old.blog/tags/tugas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tugas : Cara Menggunakan Database Oracle</title>
-      <link>https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/cara-menggunakan-db-oracle/</link>
       <pubDate>Sun, 26 Apr 2020 15:08:47 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/cara-menggunakan-db-oracle/</guid>
       <description>Intro  Ternyata sudah ada materinya di classroom -_- . Saya terlanjur ublek-ublek di internet :( Efek kuota sedikit, jadi males buka-buka kelas. Apalagi kelas video dan streaming.
  Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)
  WARNING : Banyak Screenshot dan ukurannya besar-besar!!!
@@ -24,10 +24,10 @@
     
     <item>
       <title>Installasi Oracle XE</title>
-      <link>https://ledleledle.github.io/blog/post/installasi-oracle-xe/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/installasi-oracle-xe/</link>
       <pubDate>Sun, 26 Apr 2020 05:00:02 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/installasi-oracle-xe/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/installasi-oracle-xe/</guid>
       <description>Ini menyangkut tugas kuliah, sebenernya ini untuk tugas remidial UTS kemarin, tapi berhubung saya tertarik jadi kita bahas saja. Dan karena saya merasa janggal juga, kenapa setiap tutorial installasi dari dosen selalu saja pake OS Jendela. Kurang gimana gitu :v
 Spesifikasi Karena sudah saya singgung diatas, disini saya menggunakan distro Arch Linux.
 Kebutuhan  Update repo Sediakan akun Oracle, kalo belum punya daftar dulu Koneksi internet (ini mah wajib :v)  Tutorial Pertama, kita clone dulu oracle-xe dari repo AUR.</description>

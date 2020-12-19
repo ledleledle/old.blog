@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>arch on ledleledle&#39;s Blog</title>
-    <link>https://ledleledle.github.io/blog/tags/arch/</link>
+    <link>https://leonprasetya.my.id/old.blog/tags/arch/</link>
     <description>Recent content in arch on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 03 May 2020 12:03:50 +0700</lastBuildDate>
     
-	<atom:link href="https://ledleledle.github.io/blog/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leonprasetya.my.id/old.blog/tags/arch/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fix &#34;a stop job is running for session 2&#34; pada Arch based distro</title>
-      <link>https://ledleledle.github.io/blog/post/fix-a-stop-job-is-running-for-session-2/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/fix-a-stop-job-is-running-for-session-2/</link>
       <pubDate>Sun, 03 May 2020 12:03:50 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/fix-a-stop-job-is-running-for-session-2/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/fix-a-stop-job-is-running-for-session-2/</guid>
       <description>Ditutorial kali ini saya akan membahas tentang error yang sangat mengganggu pada Arch based distro (terutama Manjaro). Saya seringkali berhadapan dengan error yang bertuliskan a stop job is running for session 2. Penampakannya seperti gambar dibawah.     Gimana tidak mengganggu, kalian harus menunggu beberapa menit hanya untuk shutdown laptop/pc kalian. Dan setelah pencarian yang lumayan panjang, akhirnya saya menemukan solusinya CMIW :)
 Yang perlu kalian install yaitu paket watchdog.</description>
     </item>
     
     <item>
       <title>Device Android Tidak Terdeteksi Di Arch Linux</title>
-      <link>https://ledleledle.github.io/blog/post/device-android-tidak-terdeteksi-di-arch-linux/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/device-android-tidak-terdeteksi-di-arch-linux/</link>
       <pubDate>Sun, 03 May 2020 11:58:17 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/device-android-tidak-terdeteksi-di-arch-linux/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/device-android-tidak-terdeteksi-di-arch-linux/</guid>
       <description>Mungkin kalian pernah/sedang mengalaminya, setelah installasi Arch Linux kalian tidak bisa mengakses MTP Android, atau pertama normal-normal saja tapi tiba-tiba besoknya tidak bisa digunakan. Berikut solusinya.
 Install paket ini dan masalah anda beres.
 $ sudo pacman -S gvfs-mtp Sumber  https://wiki.archlinux.org/index.php/Media_Transfer_Protocol  Sekian tutorial yang pendek ini, semoga bermanfaat :&#39;)</description>
@@ -33,10 +33,10 @@ $ sudo pacman -S gvfs-mtp Sumber  https://wiki.archlinux.org/index.php/Media_Tra
     
     <item>
       <title>Mendapatkan Pesan Error lib32-nss: /usr/lib32/p11-kit-trust.so exists in filesystem Saat Update Arch Linux</title>
-      <link>https://ledleledle.github.io/blog/post/lib32-nss-exists-in-filesystem/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/lib32-nss-exists-in-filesystem/</link>
       <pubDate>Wed, 29 Apr 2020 11:31:33 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/lib32-nss-exists-in-filesystem/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/lib32-nss-exists-in-filesystem/</guid>
       <description>Intro Pernahkah kalian dapat pesan error seperti ini saat anda melakukan update Arch Linux pacman -Syu? Pesan error ini dikarenakan paket nss dan lib32-nss sebelum versi 3.51.1-1 masing-masing tidak memiliki soname. Lalu pada versi 3.51.1-1 telah ditambahkan soname tersebut, sehingga update selanjutnya perlu menimpa file yang tidak dilacak yang dibuat oleh ldconfig.
 Solusinya Caranya mudah teman-teman. Saat update gunakan perintah ini.
 @root&amp;gt; pacman -Syu --overwrite /usr/lib\*/p11-kit-trust.so Tadaa.. Pesan error sudah tidak muncul lagi dan proses update tidak gagal lagi.</description>

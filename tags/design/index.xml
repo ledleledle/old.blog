@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>design on ledleledle&#39;s Blog</title>
-    <link>https://ledleledle.github.io/blog/tags/design/</link>
+    <link>https://leonprasetya.my.id/old.blog/tags/design/</link>
     <description>Recent content in design on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 05 May 2020 15:41:18 +0700</lastBuildDate>
     
-	<atom:link href="https://ledleledle.github.io/blog/tags/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leonprasetya.my.id/old.blog/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mengenal Aplikasi Figma</title>
-      <link>https://ledleledle.github.io/blog/post/mengenal-figma/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/mengenal-figma/</link>
       <pubDate>Tue, 05 May 2020 15:41:18 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/mengenal-figma/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/mengenal-figma/</guid>
       <description>Apa itu Figma? Figma adalah salah satu aplikasi yang digunakan untuk membuat design aplikasi mobile, desktop, website dll.
 Kelebihan :  Keunggulannya adalah aplikasi ini berbasis web, jadi bisa dibuka di OS apa saja. Tools yang simpel, sedikit dan mudah dipahami. Menyediakan blok code dari design yang telah dibuat (berupa CSS).  Kelemahan :  Kelemahannya mungkin karena web based, jadi harus wajib tersambung dengan internet saat penggunaannya.  Untuk menggunakannya caranya mudah, kalian bisa langsung menuju website resminya di figma.</description>
     </item>

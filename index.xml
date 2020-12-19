@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ledleledle&#39;s Blog</title>
-    <link>https://ledleledle.github.io/blog/</link>
+    <link>https://leonprasetya.my.id/old.blog/</link>
     <description>Recent content on ledleledle&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 05 May 2020 15:41:18 +0700</lastBuildDate>
     
-	<atom:link href="https://ledleledle.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leonprasetya.my.id/old.blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mengenal Aplikasi Figma</title>
-      <link>https://ledleledle.github.io/blog/post/mengenal-figma/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/mengenal-figma/</link>
       <pubDate>Tue, 05 May 2020 15:41:18 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/mengenal-figma/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/mengenal-figma/</guid>
       <description>Apa itu Figma? Figma adalah salah satu aplikasi yang digunakan untuk membuat design aplikasi mobile, desktop, website dll.
 Kelebihan :  Keunggulannya adalah aplikasi ini berbasis web, jadi bisa dibuka di OS apa saja. Tools yang simpel, sedikit dan mudah dipahami. Menyediakan blok code dari design yang telah dibuat (berupa CSS).  Kelemahan :  Kelemahannya mungkin karena web based, jadi harus wajib tersambung dengan internet saat penggunaannya.  Untuk menggunakannya caranya mudah, kalian bisa langsung menuju website resminya di figma.</description>
     </item>
     
     <item>
       <title>Fix &#34;a stop job is running for session 2&#34; pada Arch based distro</title>
-      <link>https://ledleledle.github.io/blog/post/fix-a-stop-job-is-running-for-session-2/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/fix-a-stop-job-is-running-for-session-2/</link>
       <pubDate>Sun, 03 May 2020 12:03:50 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/fix-a-stop-job-is-running-for-session-2/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/fix-a-stop-job-is-running-for-session-2/</guid>
       <description>Ditutorial kali ini saya akan membahas tentang error yang sangat mengganggu pada Arch based distro (terutama Manjaro). Saya seringkali berhadapan dengan error yang bertuliskan a stop job is running for session 2. Penampakannya seperti gambar dibawah.     Gimana tidak mengganggu, kalian harus menunggu beberapa menit hanya untuk shutdown laptop/pc kalian. Dan setelah pencarian yang lumayan panjang, akhirnya saya menemukan solusinya CMIW :)
 Yang perlu kalian install yaitu paket watchdog.</description>
     </item>
     
     <item>
       <title>Device Android Tidak Terdeteksi Di Arch Linux</title>
-      <link>https://ledleledle.github.io/blog/post/device-android-tidak-terdeteksi-di-arch-linux/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/device-android-tidak-terdeteksi-di-arch-linux/</link>
       <pubDate>Sun, 03 May 2020 11:58:17 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/device-android-tidak-terdeteksi-di-arch-linux/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/device-android-tidak-terdeteksi-di-arch-linux/</guid>
       <description>Mungkin kalian pernah/sedang mengalaminya, setelah installasi Arch Linux kalian tidak bisa mengakses MTP Android, atau pertama normal-normal saja tapi tiba-tiba besoknya tidak bisa digunakan. Berikut solusinya.
 Install paket ini dan masalah anda beres.
 $ sudo pacman -S gvfs-mtp Sumber  https://wiki.archlinux.org/index.php/Media_Transfer_Protocol  Sekian tutorial yang pendek ini, semoga bermanfaat :&#39;)</description>
@@ -43,10 +43,10 @@ $ sudo pacman -S gvfs-mtp Sumber  https://wiki.archlinux.org/index.php/Media_Tra
     
     <item>
       <title>Kostumisasi Mozila Firefox dengan mengubah userChrome.css</title>
-      <link>https://ledleledle.github.io/blog/post/kostumisasi-mozila-firefox/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/kostumisasi-mozila-firefox/</link>
       <pubDate>Thu, 30 Apr 2020 17:22:33 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/kostumisasi-mozila-firefox/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/kostumisasi-mozila-firefox/</guid>
       <description>Karena di Grup Facebook banyak yang tanya tentang ini, maka ane buatkan tutorialnya. Ok langsung saja ke tutorial.
 Pertama, kita masuk dulu ke menu config, buka melalui search bar dengan mengetikkan about:config. Klik Accept the Risk and Continue.
 Kedua, cari toolkit.legacyUserProfileCustomizations.stylesheets. Lalu ubah valuenya dari False menjadi True.
@@ -55,20 +55,20 @@ Langkah selanjutnya yaitu membuat/menyunting file userChrome.css. Cara mengetahu
     
     <item>
       <title>Host Website Hugo di Github</title>
-      <link>https://ledleledle.github.io/blog/post/host-hugo-github/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/host-hugo-github/</link>
       <pubDate>Wed, 29 Apr 2020 11:47:10 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/host-hugo-github/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/host-hugo-github/</guid>
       <description>Sebelumnya saya telah membuat tutorial How I Made Hugo Blog. Ini lanjutan yang telah saya janjikan. Dan maaf saya sekarang pakai Bahasa Indonesia, karena ternyata setelah saya membuat postingan tersebut ternyata Bahasa Inggris saya masih kacau dan terlihat di postingan sebelumnya bahasanya kacau sekali (jadi malu). Yah tidak usah basa-basi lagi.
 Tutorial 1. Generate Static Files Jika sebelumnya kita hanya menjalankan server local dengan perintah hugo serve. Sekarang kita akan meng-generate file statis dengan perintah hugo -D.</description>
     </item>
     
     <item>
       <title>Mendapatkan Pesan Error lib32-nss: /usr/lib32/p11-kit-trust.so exists in filesystem Saat Update Arch Linux</title>
-      <link>https://ledleledle.github.io/blog/post/lib32-nss-exists-in-filesystem/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/lib32-nss-exists-in-filesystem/</link>
       <pubDate>Wed, 29 Apr 2020 11:31:33 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/lib32-nss-exists-in-filesystem/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/lib32-nss-exists-in-filesystem/</guid>
       <description>Intro Pernahkah kalian dapat pesan error seperti ini saat anda melakukan update Arch Linux pacman -Syu? Pesan error ini dikarenakan paket nss dan lib32-nss sebelum versi 3.51.1-1 masing-masing tidak memiliki soname. Lalu pada versi 3.51.1-1 telah ditambahkan soname tersebut, sehingga update selanjutnya perlu menimpa file yang tidak dilacak yang dibuat oleh ldconfig.
 Solusinya Caranya mudah teman-teman. Saat update gunakan perintah ini.
 @root&amp;gt; pacman -Syu --overwrite /usr/lib\*/p11-kit-trust.so Tadaa.. Pesan error sudah tidak muncul lagi dan proses update tidak gagal lagi.</description>
@@ -76,10 +76,10 @@ Solusinya Caranya mudah teman-teman. Saat update gunakan perintah ini.
     
     <item>
       <title>Tugas : Cara Menggunakan Database Oracle</title>
-      <link>https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/cara-menggunakan-db-oracle/</link>
       <pubDate>Sun, 26 Apr 2020 15:08:47 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/cara-menggunakan-db-oracle/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/cara-menggunakan-db-oracle/</guid>
       <description>Intro  Ternyata sudah ada materinya di classroom -_- . Saya terlanjur ublek-ublek di internet :( Efek kuota sedikit, jadi males buka-buka kelas. Apalagi kelas video dan streaming.
  Sebelumnya kita telah belajar tentang installasi Database Oracle di Arch Linux. Pada tugas kali ini, kita akan membahas tentang cara menggunakannya. Tentu saja kita masih dengan OS Linux :)
  WARNING : Banyak Screenshot dan ukurannya besar-besar!!!
@@ -88,10 +88,10 @@ Solusinya Caranya mudah teman-teman. Saat update gunakan perintah ini.
     
     <item>
       <title>Installasi Oracle XE</title>
-      <link>https://ledleledle.github.io/blog/post/installasi-oracle-xe/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/installasi-oracle-xe/</link>
       <pubDate>Sun, 26 Apr 2020 05:00:02 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/installasi-oracle-xe/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/installasi-oracle-xe/</guid>
       <description>Ini menyangkut tugas kuliah, sebenernya ini untuk tugas remidial UTS kemarin, tapi berhubung saya tertarik jadi kita bahas saja. Dan karena saya merasa janggal juga, kenapa setiap tutorial installasi dari dosen selalu saja pake OS Jendela. Kurang gimana gitu :v
 Spesifikasi Karena sudah saya singgung diatas, disini saya menggunakan distro Arch Linux.
 Kebutuhan  Update repo Sediakan akun Oracle, kalo belum punya daftar dulu Koneksi internet (ini mah wajib :v)  Tutorial Pertama, kita clone dulu oracle-xe dari repo AUR.</description>
@@ -99,10 +99,10 @@ Kebutuhan  Update repo Sediakan akun Oracle, kalo belum punya daftar dulu Koneks
     
     <item>
       <title>Reflash Original Firmware TP-Link MR3420 V.2</title>
-      <link>https://ledleledle.github.io/blog/post/reflash-original-firmware-tp-link-mr3420-v2/</link>
+      <link>https://leonprasetya.my.id/old.blog/post/reflash-original-firmware-tp-link-mr3420-v2/</link>
       <pubDate>Fri, 24 Apr 2020 12:50:06 +0700</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/post/reflash-original-firmware-tp-link-mr3420-v2/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/post/reflash-original-firmware-tp-link-mr3420-v2/</guid>
       <description>Halo teman-teman, kali ini saya akan membahas tentang bagaimana cara reflash original firmware dari OpenWRT pada router TP-Link MR3420 V.2.
 Spesifikasi dan Kebutuhan  Router (sudah pasti) OS Linux Firmware bawaan TP-Link disini  Tutorial  Step pertama, ekstrak file firmware terlebih dahulu $ unzip &amp;#34;TL-MR3420_V2_150319.zip&amp;#34;
   Rename file firmware dengan nama firmware.bin agar dalam pengerjaannya jadi lebih mudah dan simple. $ mv &amp;#34;mr3420v2_en_3_16_9_up_boot(150319).bin&amp;#34; firmware.bin
@@ -111,10 +111,10 @@ Spesifikasi dan Kebutuhan  Router (sudah pasti) OS Linux Firmware bawaan TP-Link
     
     <item>
       <title>About me</title>
-      <link>https://ledleledle.github.io/blog/page/about/</link>
+      <link>https://leonprasetya.my.id/old.blog/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ledleledle.github.io/blog/page/about/</guid>
+      <guid>https://leonprasetya.my.id/old.blog/page/about/</guid>
       <description>Intro Website ini peralihan dari blog saya yang sebelumnya yaitu https://leontodsky.blogspot.com. Karena saya lebih tertarik dengan Hugo dibanding dengan Blogspot :v Karena mudah dioprek isinya dan karena Hugo adalah framework untuk meng-generate website statis, jadi dalam hal menulis konten Hugo menawarkan keunggulan yaitu saya bisa menulis konten tanpa internet sekalipun :D
 Bio Saya mahasiswa gabud angkatan 2016, menyukai linux desktop ricing, tidak tertarik pada perkuliahan (saya dulu dipaksa kuliah). Pemrograman cuma sebatas hoby dan tidak untuk pekerjaan.</description>
     </item>
